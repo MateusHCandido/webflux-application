@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: codechella
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/codechella
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
